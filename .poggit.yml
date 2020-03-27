@@ -4,6 +4,6 @@ branches:
 - master
 projects:
   Hammer:
-  icon: icon.PNG
     path: ""
+    icon: icon.PNG
 ...
