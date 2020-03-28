@@ -1,6 +1,6 @@
 <?php
 
-namespace Antaxio\Hammer;
+namespace Antaxio14\Hammer;
 
 use pocketmine\block\Air;
 use pocketmine\block\Block;
