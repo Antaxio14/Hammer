@@ -1,6 +1,6 @@
 <?php
 
-namespace VirVolta;
+namespace Antaxio14\Hammer;
 
 use pocketmine\block\Air;
 use pocketmine\block\Block;
