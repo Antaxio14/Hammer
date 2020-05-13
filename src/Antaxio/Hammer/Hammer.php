@@ -157,37 +157,37 @@ class Hammer extends PluginBase implements Listener
 
                 break;
 
-            case 17:
+            case 1:
 
                 return Item::get(0);
 
                 break;
 
-            case 162:
+            case 2:
 
                 return Item::get(0);
 
                 break;
 
-            case 246:
+            case 3:
 
                 return Item::get(0);
 
                 break;
 
-            case 31:
+            case 4:
 
                 return Item::get(0);
 
                 break;
 
-            case 175:
+            case 5:
 
                 return Item::get(0);
 
                 break;
 
-            case 74:
+            case 7:
 
                 return Item::get(Block::REDSTONE_ORE);
 
@@ -228,9 +228,6 @@ class Hammer extends PluginBase implements Listener
                 return Item::get($block->getID());
 
                 break;
-
         }
-
     }
-
 }
