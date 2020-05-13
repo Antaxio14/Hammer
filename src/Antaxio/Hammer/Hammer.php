@@ -42,12 +42,10 @@ class Hammer extends PluginBase implements Listener
 
                 $event->setCancelled();
                 $this->addBlock($block);
-
             }
         }
-
     }
-
+	
     private function addBlock(Block $blocks)
     {
         $minX = $blocks->x - 1;
@@ -76,15 +74,10 @@ class Hammer extends PluginBase implements Listener
 
                         $item = $this->onTransform($block);
                         $block->getLevel()->dropItem(new Vector3($x, $y, $z), $item);
-
                     }
-
                 }
-
             }
-
-        }
-
+	}
     }
 
     public function onTransform(Block $block) : Item
@@ -187,7 +180,7 @@ class Hammer extends PluginBase implements Listener
 
                 break;
 
-            case 7:
+            case 6:
 
                 return Item::get(Block::REDSTONE_ORE);
 
